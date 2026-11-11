@@ -1,4 +1,4 @@
-# heyresearch-xyz
+# HEY Research Lab
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,138 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-heyresearch-xyz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://heyresearch.xyz/
+HEY Research Lab provides a public record of building on the Robinhood Chain, offering tools, data, and APIs for developers to explore projects, builders, narratives, and ship updates. The platform includes documentation, MCP AI agents, and integration guides for decentralized finance applications, aiming to foster transparency and collaboration in the blockchain ecosystem.
+
+**Areas:** Blockchain · Data · API · Decentralized Finance · Community
+
+## HEY Research Lab on APIs.io
+
+Everything profiled for HEY Research Lab is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/heyresearch-xyz/](https://apis.io/providers/heyresearch-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [HEY Research Lab Agents API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-agents-api/) — Machine interfaces: the agent contract (AgentIntelligenceResponse v1), A2A and agent research receipts.
+- [HEY Research Lab Contracts API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-contracts-api/) — Contracts as research entities.
+- [HEY Research Lab Evidence API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-evidence-api/) — Typed evidence ids resolved to receipts, and the change ledger.
+- [HEY Research Lab Hey API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-hey-api/) — $HEY, researched like any other token.
+- [HEY Research Lab Market API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-market-api/) — Market context only. Market figures (price, valuation, liquidity, volume) never feed activity status, Build Momentum or the Radar. The Discovery Gap is the…
+- [HEY Research Lab Partners API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-partners-api/) — Builder intelligence for another product, in one call by contract. Carry `project_link` wherever you render it.
+- [HEY Research Lab Projects API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-projects-api/) — Find and read published projects. A token is not a project; an unpublished record is not researched.
+- [HEY Research Lab Research API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-research-api/) — One project in depth: snapshot, coverage, explain, timeline, history, diff.
+- [HEY Research Lab Status API](https://apis.io/apis/heyresearch-xyz/heyresearch-xyz-status-api/) — HEY's own freshness.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Heyresearch Xyz Webhooks](https://apis.io/asyncapis/heyresearch-xyz/heyresearch-xyz-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [HEY Research Lab Agentic Access](https://apis.io/agentic-access/heyresearch-xyz/heyresearch-xyz-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentIntelligenceResponse](https://apis.io/schemas/heyresearch-xyz/heyresearch-xyz-agent-intelligence-response/)
+- [PartnerBuilderCard](https://apis.io/schemas/heyresearch-xyz/heyresearch-xyz-partner-builder-card/)
+- [ProjectDetail](https://apis.io/schemas/heyresearch-xyz/heyresearch-xyz-project-detail/)
+- [ProjectSnapshot](https://apis.io/schemas/heyresearch-xyz/heyresearch-xyz-project-snapshot/)
+- [ScanCard](https://apis.io/schemas/heyresearch-xyz/heyresearch-xyz-scan-card/)
+- [TokenLookup](https://apis.io/schemas/heyresearch-xyz/heyresearch-xyz-token-lookup/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Heyresearch Xyz Context](https://apis.io/jsonld/heyresearch-xyz/heyresearch-xyz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [HEY Research Lab API Rules](https://apis.io/rules/heyresearch-xyz/heyresearch-xyz-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [HEY Research Lab Authentication](https://apis.io/security/heyresearch-xyz/heyresearch-xyz-authentication/)
+- [HEY Research Lab Domain Security](https://apis.io/security/heyresearch-xyz/heyresearch-xyz-domain-security/)
+- [HEY Research Lab Vulnerability Disclosure](https://apis.io/security/heyresearch-xyz/heyresearch-xyz-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://heyresearch.xyz/)
+- [Documentation](https://heyresearch.xyz/docs)
+- [Getting started](https://heyresearch.xyz/developers)
+- [API reference](https://heyresearch.xyz/docs/public-api)
+- [Changelog](https://heyresearch.xyz/developers/changelog)
+- [Terms of service](https://heyresearch.xyz/terms)
+- [Privacy policy](https://heyresearch.xyz/privacy)
+- [Status](https://heyresearch.xyz/status)
+
+## API Evangelist rating
+
+**Kin Score 56.6** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 69.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 55.3 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 21.1 |
+
+**Agent readiness 49.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/heyresearch-xyz/](https://apis.io/providers/heyresearch-xyz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HEY Research Lab: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/heyresearch-xyz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
